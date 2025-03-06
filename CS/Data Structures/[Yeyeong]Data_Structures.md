@@ -19,17 +19,17 @@
 
 ### 예시
 -  아무데나 저장
-    ![alt text](image.png)
+    ![alt text](./[Yeyeong]images/image.png)
     - 이렇게 저장할 경우
     - 다음 데이터를 찾을 때 시간이 많이 듦
 - Linked List
-    ![alt text](image-2.png)
+    ![alt text](./[Yeyeong]images/image-2.png)
     - 한 번에 두 개의 노드를 사용하기 때문에 메모리는 더 사용하지만
     - 시간은 줄어드는 방법
     - 저장할 때 다음 데이터의 메모리를 함께 저장하기
     - 마지막 노드에서 저장하는 주소값은 `0x0`(NULL)
 
-    ![alt text](image-3.png)
+    ![alt text](./[Yeyeong]images/image-3.png)
     - 화살표가 pointer라고 생각하면 됨
 
 > 참고: person이라는 구조체를 저장하는 방법
@@ -62,7 +62,7 @@ typedef struct node
 - 마지막 줄 node 앞엔 struct 생략 가능
 
 
-![alt text](image-4.png)
+![alt text](./[Yeyeong]images/image-4.png)
 ```c
 (*n).number = 1;
 // 같은 표현, 더 자주 씀
