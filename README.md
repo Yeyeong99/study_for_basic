@@ -1,4 +1,18 @@
-# study_4_git
+# study_for_basic
+### 진행 상황
+|    날짜    |         주제          | 진행 여부 |
+| :--------: | :-------------------: | :-------: |
+| 2025-01-31 |           C           |    ✔️     |
+| 2025-02-07 |        Arrays         |    ✔️     |
+| 2025-02-20 |      Algorithms       |    ✔️     |
+| 2025-02-28 |       코드리뷰        |    ✔️     |
+| 2025-03-07 |    Data Structure     |           |
+| 2025-03-14 |        Memory         |           |
+| 2025-03-21 |        Python         |           |
+| 2025-03-28 |          SQL          |           |
+| 2025-04-04 | HTML, CSS, Javascript |           |
+| 2025-04-11 |         Flask         |           |
+| 2025-04-18 |     Cybersecurity     |           |
 
 ## 세부 사항
 
@@ -7,7 +21,7 @@
 ### Repository 구조
 
 ```Markdown
-study_4_git
+study_for_basic
     ㄴ CS
         ㄴ C
             ㄴ [Nayeon]C.md
@@ -43,7 +57,6 @@ study_4_git
   - 파일 업로드는 발표 전 일요일 11:59:59까지
 
 ## 알고리즘 스터디 (비대면)
->  **pull request 과정에서 다른 사람 코드 리뷰하고 댓글 남기기**
 
 [참고자료](https://swexpertacademy.com/main/main.do)
 
@@ -56,25 +69,8 @@ study_4_git
      |번호|명령어|설명|
      |:-:|:-:|:-|
      |1|git clone 주소|처음에만 하면 됨|
-     |2|git branch Yeyeong|Yeyeong이라는 이름의 브랜치 생성. 자신의 이름으로 하면 됨|
-     |3|git checkout Yeyeong|Yeyeong이라는 이름의 브랜치로 이동, checkout 대신 switch 써도 됨|
-     |4| |로컬에서 작업 진행|
-     |5|git add 파일이름|파일 이름 혹은 . 이용|
-     |6|git commit -m "커밋 메세지"|커밋 시 원하는 issue의 넘버를 쓰면 링크가 연동됨. 예를 들어 #2를 쓰면 #2 issue로 연결되는 식|
-     |7|git push|레포지토리에 올림|
-     |8||git hub 웹사이트에 잘 올라갔는지 확인|
-
-     
-   - 1회차 / 1주차 스터디 이후: 레포지토리를 받아오고 한 번 푸시를 한 이후
-     |번호|명령어|설명|
-     |:-:|:-:|:-|
-     |1|git checkout Yeyeong|Yeyeong이라는 이름의 브랜치로 이동, checkout 대신 switch 써도 됨|
-     |2|**git pull origin Yeyeong**|1) **자신의 브랜치에 있는 상태에서**<br>2) 웹 깃허브 상에서 자신의 브랜치에서 업데이트 된 내용을 받아오기 위한 과정<br>3) **안하면 충돌 가능성 높아지니 필수!!**|
-     |3| |로컬에서 작업 진행|
-     |4|git status|작업 상태 확인|
-     |5|git add 파일이름|파일 혹은 . 이용|
-     |6|git commit -m "커밋 메세지"|커밋 시 원하는 issue의 넘버를 쓰면 링크가 연동됨. 예를 들어 #2를 쓰면 #2 issue로 연결되는 식|
-     |7|git push|레포지토리에 올림|
-     |8||git hub 웹사이트에 잘 올라갔는지 확인|
-        - 현재 자신이 위치한 브랜치 확인하는 방법: git branch 치거나 git bash의 레포지토리 맨 뒤에 괄호 안 이름 확인
-        - 만약 git branch 잘못 만들었을 경우: git branch -d 브랜치 이름 하면 됨
+     |2| |로컬에서 작업 진행|
+     |3|git add 파일이름|파일 이름 혹은 . 이용|
+     |4|git commit -m "커밋 메세지"|커밋 시 원하는 issue의 넘버를 쓰면 링크가 연동됨. 예를 들어 #2를 쓰면 #2 issue로 연결되는 식|
+     |5|git push|레포지토리에 올림|
+     |6||git hub 웹사이트에 잘 올라갔는지 확인|
