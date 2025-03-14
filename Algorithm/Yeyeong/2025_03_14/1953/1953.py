@@ -26,10 +26,9 @@ def bfs(i, j, cnt):
     visited[i][j] = 1
     while queue:
         r, c, distance = queue.popleft()
-        print(r, c, matrix[r][c])
 
         if distance == L:
-            return sum([visited[i][j] for i in range(N) for j in range(M)])
+            break
         current_delta = tunnel[matrix[r][c]]
         for p, q in current_delta:
             nx = r + p
@@ -45,12 +44,14 @@ def bfs(i, j, cnt):
                 continue
             elif [p, q] == [1, 0] and matrix[nx][ny] not in to_bottom:
                 continue
-            elif [p, q] == [0, -1] and matrix[nx][ny] not in to_right:
+            elif [p, q] == [0, -1] and matrix[nx][ny] not in to_left:
                 continue
-            elif [p, q] == [0, 1] and matrix[nx][ny] not in to_left:
+            elif [p, q] == [0, 1] and matrix[nx][ny] not in to_right:
                 continue
             visited[nx][ny] = 1
             queue.append((nx, ny, distance + 1))
+
+    return sum([visited[i][j] for i in range(N) for j in range(M)])
 
 
 T = int(input())
@@ -60,4 +61,4 @@ for t in range(1, T + 1):
     matrix = [list(map(int, input().split())) for _ in range(N)]
 
     answer = bfs(R, C, 1)
-    print(answer)
+    print(f"#{t} {answer}")
