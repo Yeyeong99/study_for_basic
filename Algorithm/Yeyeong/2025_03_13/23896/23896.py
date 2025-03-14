@@ -36,6 +36,7 @@ for t in range(1, T + 1):
         # 카드를 미리 나누고 비교하면 카드의 뽑는 순서가 반영되지 않음
         # 0 1 2 3 ... 12이어야 하는데
         # 0 1 2 .. 5 / 0 1 2 .. 5 이렇게 되어서 문제..
+
         if i % 2 == 1:
             first.append(cards[i])
             if len(first) >= 3 and (check_run(first) or triplet(first)):
