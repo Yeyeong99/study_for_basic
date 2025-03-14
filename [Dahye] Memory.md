@@ -2,7 +2,7 @@
 
 작은 정사각형 픽셀을 조합하여 그림을 만드는 디지털 아트 스타일. 8비트 및 16비트 비디오 게임의 그래픽 스타일에서 비롯되었으며, 마인크래프트, 슈퍼 마리오, 젤다 같은 레트로 게임에서 많이 볼 수 있음
 
-![image.png](farm.png)
+
 
 **활용 분야**
 
@@ -15,9 +15,6 @@
 
 https://hischarlie.tistory.com/46
 
-![image.png](mario.png)
-
-![image.png](nft.png)
 
 ### **픽셀(Pixel)이란?**
 
