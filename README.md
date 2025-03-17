@@ -7,7 +7,7 @@
 | 2025-02-20 |      Algorithms       |    ✔️     |
 | 2025-02-28 |       코드리뷰        |    ✔️     |
 | 2025-03-07 |    Data Structure     |     ✔    |
-| 2025-03-14 |        Memory         |           |
+| 2025-03-14 |        Memory         |     ✔️   |
 | 2025-03-21 |        Python         |           |
 | 2025-03-28 |          SQL          |           |
 | 2025-04-04 | HTML, CSS, Javascript |           |
