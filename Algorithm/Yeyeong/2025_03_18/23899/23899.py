@@ -6,14 +6,13 @@ def dfs(idx, cnt):
     global min_change
     if cnt >= min_change:  # 백트래킹: 최소 교체 횟수보다 크면 종료
         return
-    if idx >= N - 1:  # 목적지 도착 시 최소 교체 횟수 갱신
+    if idx >= N:  # 목적지 도착 시 최소 교체 횟수 갱신
         min_change = min(min_change, cnt)
         return
-    if idx == N:
-        return
 
-    dfs(idx + 1, cnt + data[idx])
-    dfs(idx + 1, cnt)
+    available_stations = data[idx]
+    for station in range(idx + available_stations, idx, -1):
+        dfs(station, cnt + 1)
 
 
 T = int(input())
