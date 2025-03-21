@@ -194,7 +194,7 @@ Python 패키지(라이브러리)를 설치하고 관리하는 도구
    - 다양한 캐릭터 (`cowsay.dragon()`, `cowsay.tux()`)를 사용할 수도 있음.
 
 ---
-![alt text](아저씨 이건 좀.png)
+![alt text](아저씨이건좀.png)
 ### 3. **QR 코드 생성 (`qrcode`)**
    ```python
    import qrcode
