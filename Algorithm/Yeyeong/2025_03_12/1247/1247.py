@@ -7,7 +7,7 @@ from itertools import permutations
 
 
 def find_min(perms):
-    global min_distance
+    global min_cnt
     for perm in perms:
         company_customers_home = [company] + perm + [home]
         distance = 0
@@ -34,16 +34,16 @@ for t in range(1, T + 1):
 
     perms = list(map(list, permutations(customers_idx, len(customers_idx))))
 
-    min_distance = float('inf')
+    min_cnt = float('inf')
     find_min(perms)
 
-    print(f"#{t} {min_distance}")
+    print(f"#{t} {min_cnt}")
 
 # dfs 사용
 
 
 def dfs(x, y, visited, count, distance):
-    global min_distance
+    global min_cnt
 
     # 모든 고객을 방문한 경우, 집으로 돌아가는 거리 추가
     if count == N:
@@ -72,10 +72,10 @@ for t in range(1, T + 1):
     customers = [(idx[i], idx[i + 1]) for i in range(4, len(idx), 2)]
 
     # 초기화
-    min_distance = float('inf')
+    min_cnt = float('inf')
     visited = [False] * N  # 고객 방문 여부 체크
 
     # DFS 탐색 시작 (회사에서 출발)
     dfs(company[0], company[1], visited, 0, 0)
 
-    print(f"#{t} {min_distance}")
+    print(f"#{t} {min_cnt}")
