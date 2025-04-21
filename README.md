@@ -10,9 +10,10 @@
 | 2025-03-14 |        Memory         |     ✔️   |
 | 2025-03-21 |        Python         |      ✔️     |
 | 2025-03-28 |          SQL          |     ✔️      |
-| 2025-04-04 | HTML, CSS, Javascript |           |
+| 2025-04-04 | HTML, CSS, Javascript |     ✔️     |
 | 2025-04-11 |         Flask         |           |
 | 2025-04-18 |     Cybersecurity     |           |
+| 2025-04-21 |     Artificial Intelligence     |           |
 
 ## 세부 사항
 
